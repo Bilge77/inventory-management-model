@@ -27,5 +27,8 @@ Safety Stock = Z × σ × √Lead Time
 - Python
 - NumPy
 
+  ## Visualization
+This model also includes a simulation of daily demand compared to the reorder point.
+
 ## Author
 Bilge Yuluğ – Industrial Engineering Student
