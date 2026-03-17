@@ -8,7 +8,7 @@ This project demonstrates an inventory management system using Reorder Point (RO
 
 ## Live Web App
 You can try the interactive version here:  
-https://inventory-management-model-5wymctrhntlitnfnczouk.streamlit.app/
+https://inventory-management-model-5wymchtrhtnlitnfnczouk.streamlit.app/
 
 ---
 
