@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-print("📦 Inventory Management Model\n")
+print("Inventory Management Model\n")
 
 try:
     
