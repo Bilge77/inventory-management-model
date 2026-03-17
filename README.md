@@ -5,6 +5,9 @@ This project demonstrates a basic inventory management system using Reorder Poin
 ## Objective
 To determine when to reorder products based on demand and lead time.
 
+## How to Use
+Run the Python file and enter your own demand, lead time, and variability values to calculate the reorder point dynamically.
+
 ## Model Explanation
 
 - Daily Demand = 20 units
@@ -27,7 +30,7 @@ Safety Stock = Z × σ × √Lead Time
 - Python
 - NumPy
 
-  ## Visualization
+ ## Visualization
 This model also includes a simulation of daily demand compared to the reorder point.
 
 ## Author
