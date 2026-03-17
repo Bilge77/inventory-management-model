@@ -14,3 +14,16 @@ rop = demand_during_lead_time + safety_stock
 print("Demand during lead time:", demand_during_lead_time)
 print("Safety Stock:", round(safety_stock, 2))
 print("Reorder Point (ROP):", round(rop, 2))
+
+import matplotlib.pyplot as plt
+
+# Simulated demand over 30 days
+days = np.arange(1, 31)
+demand = np.random.normal(daily_demand, demand_std, 30)
+
+plt.plot(days, demand)
+plt.axhline(y=rop, linestyle='--')
+plt.title("Daily Demand vs Reorder Point")
+plt.xlabel("Days")
+plt.ylabel("Demand")
+plt.show()
